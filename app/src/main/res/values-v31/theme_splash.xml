@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashActivity" parent="Theme.MyApplication">
+    <!-- Point 3-->
+    <item name="android:windowSplashScreenBackground">#636098</item>
+    <!-- Point 2-->
+    <item name="android:windowSplashScreenIconBackgroundColor">#0A0A0C</item>
+    <!-- Point 1-->
+    <item name="android:windowSplashScreenAnimatedIcon">
+        @drawable/ic_calories</item>
+    <!-- Point 4-->
+    <item name="android:windowSplashScreenAnimationDuration">10000</item>
+</style>
+
+    <!--<style name="Theme.MyApplication" parent="SplashActivity">
+    </style>-->
+</resources>
