@@ -1,5 +1,9 @@
 package stanojevic.kotlin
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
 class Product(val nom : String ,
               val  marque :  String ,
               val code_barres : String ,
@@ -10,6 +14,6 @@ class Product(val nom : String ,
               val  liste_pays : Array<String>,
               val  liste_ingredients : Array<String> ,
               val  liste_substances : Array<String> ,
-              val  liste_aditifs : Array<String> ) {
+              val  liste_aditifs : Array<String> ) : Parcelable{
 
 }

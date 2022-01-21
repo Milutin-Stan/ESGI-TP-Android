@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineleft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineright"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repères nutritionnels pour 100g"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/guidelineleft"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            >
+            <View
+                android:id="@+id/fat_point"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/nutrient_level_high"
+                >
+            </View>
+            <TextView
+                android:id="@+id/grasText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gras"
+                android:paddingStart="10dp"
+                >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+            <View
+                android:id="@+id/acidPoint"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/nutrient_level_high">
+            </View>
+            <TextView
+                android:id="@+id/acidText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="acid"
+                android:paddingStart="10dp"
+                >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+            <View
+                android:id="@+id/sucrePoint"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/nutrient_level_moderate">
+            </View>
+            <TextView
+                android:id="@+id/sucreText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sucre"
+                android:paddingStart="10dp"
+                >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+            <View
+                android:id="@+id/selPoint"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/nutrient_level_low">
+            </View>
+            <TextView
+                android:id="@+id/selText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sel"
+                android:paddingStart="10dp"
+                >
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,4 +9,8 @@
     <string name="nutriscore_e_desc">Nutriscore E</string>
     <string name="product_title">%1$s</string>
     <string name="product_subTitle">%1$s</string>
+    <string name="interogation">"?"</string>
+    <string name="product_menu_title">Produit</string>
+    <string name="nutrition_menu_title">Nutrition</string>
+    <string name="nutritional_value_menu_title">Valeur</string>
 </resources>
