@@ -1,27 +1,9 @@
 package stanojevic.kotlin
 
-import android.content.Context
-import android.content.Intent
-import android.graphics.Typeface
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.SpannableString
-import android.text.style.StyleSpan
-import android.util.Log
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_main.*
-import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,28 +15,6 @@ class MainActivity : AppCompatActivity() {
         val toast = Toast.makeText(applicationContext, "Hello World", Toast.LENGTH_LONG)
         toast.show()
 
-        val product = Product("Petits pois et carottes", "Cassegrain",
-            "3083680085304", "A"
-            ,"234kCal"
-        ,"https://i.imgur.com/JhYpzdR.jpeg"
-        ,"400 g (280 g net égoutté)"
-        , arrayOf("France", "Japon", "Suisse")
-        , arrayOf("Petits pois 66%", "eau", "garniture 2,8%", "salade", "oignon", "grelot", "sucre", "sel", "arôme naturel")
-        , arrayOf("Aucune")
-        , arrayOf("Aucune"))
-
-        val productKebab = Product("Kebab", "Turc",
-            "40593402950", "GROS"
-            ,"1000kCal"
-            ,"https://i.imgur.com/s2dHXJ6.jpeg"
-            ,"400 g (280 g net égoutté)"
-            , arrayOf("93", "92", "91")
-            , arrayOf("Petits pois 66%", "eau", "garniture 2,8%", "salade", "oignon", "grelot", "sucre", "sel", "arôme naturel")
-            , arrayOf("Aucune")
-            , arrayOf("Aucune"))
-
-
-        val listProduct: List<Product> = listOf(product, productKebab)
         //Picasso.get().load("https://i.imgur.com/JhYpzdR.jpeg").into(imageView4)
 
         //findViewById<TextView>(R.id.title).setText(product.nom)
@@ -78,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         additives.setBoldValue(
             getString(R.string.product_additive, product.liste_aditifs)
         )*/
-
+/*
         findViewById<RecyclerView>(R.id.main_list).run {
             adapter = ListAdapter(listProduct, listener = object : ItemClickListener{
                 override fun onItemClicked(position: Int) {
@@ -138,5 +98,6 @@ class MainActivity : AppCompatActivity() {
 
     interface ItemClickListener{
         fun onItemClicked(position: Int)
+    }*/
     }
 }

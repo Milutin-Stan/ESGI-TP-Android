@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_details"
-    app:startDestination="@id/summaryFragment">
+    app:startDestination="@id/productDetailsSummaryFragment">
 
     <fragment
-        android:id="@+id/summaryFragment"
+        android:id="@+id/productDetailsSummaryFragment"
         android:name="stanojevic.kotlin.ProductDetailsSummaryFragment"
         android:label="ProductDetailsSummaryFragment"
         tools:layout="@layout/fragment_product_details_summary"
         />
     <fragment
-        android:id="@+id/nutritionFragment"
+        android:id="@+id/productDetailsNutritionFragment"
         android:name="stanojevic.kotlin.ProductDetailsNutritionFragment"
         android:label="ProductDetailsNutritionFragment"
         tools:layout="@layout/fragment_product_details_nutritional"
         />
     <fragment
-        android:id="@+id/nutritionalValuesFragment"
+        android:id="@+id/productDetailsNutritionalValuesFragment"
         android:name="stanojevic.kotlin.ProductDetailsNutritionalValuesFragment"
         android:label="ProductDetailsNutritionalValuesFragment"
         tools:layout="@layout/fragment_product_details_nutritional_table"

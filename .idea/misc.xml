@@ -10,15 +10,18 @@
         <entry key="app/src/main/res/drawable/nutrient_level_high.xml" value="0.20092592592592592" />
         <entry key="app/src/main/res/drawable/nutrient_level_low.xml" value="0.20092592592592592" />
         <entry key="app/src/main/res/drawable/nutrient_level_moderate.xml" value="0.20092592592592592" />
+        <entry key="app/src/main/res/drawable/toolbar.xml" value="0.28958333333333336" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_product_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/food_card.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/fragment_product_details.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_product_details_nutritional.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/fragment_product_details_nutritional_table.xml" value="0.39351851851851855" />
+        <entry key="app/src/main/res/layout/fragment_product_details.xml" value="0.16392062596535764" />
+        <entry key="app/src/main/res/layout/fragment_product_details_nutritional.xml" value="0.19546851746506128" />
+        <entry key="app/src/main/res/layout/fragment_product_details_nutritional_table.xml" value="0.22621616536072597" />
         <entry key="app/src/main/res/layout/fragment_product_details_summary.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_products_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/no_products.xml" value="0.21829710144927536" />
         <entry key="app/src/main/res/menu/product_details_tabs.xml" value="0.20092592592592592" />
+        <entry key="app/src/main/res/menu/product_menu.xml" value="0.2916666666666667" />
       </map>
     </option>
   </component>
