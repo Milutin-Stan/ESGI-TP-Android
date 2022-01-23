@@ -7,6 +7,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2101851851851852" />
+        <entry key="app/src/main/res/drawable/ic_nav_bar_cart.xml" value="0.29907407407407405" />
+        <entry key="app/src/main/res/drawable/ic_tab_fiche.xml" value="0.29907407407407405" />
+        <entry key="app/src/main/res/drawable/nutri_score_a.xml" value="0.25833333333333336" />
         <entry key="app/src/main/res/drawable/nutrient_level_high.xml" value="0.20092592592592592" />
         <entry key="app/src/main/res/drawable/nutrient_level_low.xml" value="0.20092592592592592" />
         <entry key="app/src/main/res/drawable/nutrient_level_moderate.xml" value="0.20092592592592592" />
@@ -17,7 +20,7 @@
         <entry key="app/src/main/res/layout/fragment_product_details.xml" value="0.16392062596535764" />
         <entry key="app/src/main/res/layout/fragment_product_details_nutritional.xml" value="0.19546851746506128" />
         <entry key="app/src/main/res/layout/fragment_product_details_nutritional_table.xml" value="0.22621616536072597" />
-        <entry key="app/src/main/res/layout/fragment_product_details_summary.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_product_details_summary.xml" value="0.375" />
         <entry key="app/src/main/res/layout/fragment_products_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/no_products.xml" value="0.21829710144927536" />
         <entry key="app/src/main/res/menu/product_details_tabs.xml" value="0.20092592592592592" />

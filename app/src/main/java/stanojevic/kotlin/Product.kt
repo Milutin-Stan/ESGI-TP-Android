@@ -14,6 +14,7 @@ class Product(val nom : String ,
               val  liste_pays : Array<String>,
               val  liste_ingredients : Array<String> ,
               val  liste_substances : Array<String> ,
-              val  liste_aditifs : Array<String> ) : Parcelable{
+              val  liste_aditifs : Array<String>,
+              val nutririonFactsItem: NutritionFacts) : Parcelable{
 
 }
